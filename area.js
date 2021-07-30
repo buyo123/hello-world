@@ -1,5 +1,7 @@
-let radius = parseFloat(process.argv[2]);
+//let radius = parseFloat(process.argv[2]);
 
+
+/*
 
 let circle_circumference = function(r){
     let pi = 3.14;
@@ -15,7 +17,8 @@ let circle_radius = function(r){
 };
 
 console.log(`when the rasius is ${radius}, the radius is: ${circle_radius(radius)}`);
-
+*/
 let area = 314;//parseFloat(process.argv[2]);
 let pi = 3.14;
-let radius = 
+let radius = Math.sqrt(area / pi);
+console.log (`when the area is 314, the radius is ${radius}`);
