@@ -15,5 +15,3 @@ let circle_radius = function(r){
 };
 
 console.log(`when the rasius is ${radius}, the radius is: ${circle_radius(radius)}`);
-
-//change
